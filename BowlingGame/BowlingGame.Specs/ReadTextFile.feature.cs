@@ -128,7 +128,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 23
  testRunner.And("its on my local file system", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 24
- testRunner.But("I don\'t have permissions to access it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "But ");
+ testRunner.But("I dont have permissions to access it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "But ");
 #line 25
  testRunner.When("I press load", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 26

@@ -21,7 +21,7 @@ Scenario: Read a text file that doesnt exists on local file system
 Scenario: Read a text file that I dont have access to from local file system
 	Given I want to load a file called "prohibited.txt"
 	And its on my local file system
-	But I don't have permissions to access it
+	But I dont have permissions to access it
 	When I press load
 	Then the app should notify me the file cant be accessed
 

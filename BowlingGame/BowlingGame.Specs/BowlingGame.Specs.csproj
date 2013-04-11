@@ -74,6 +74,12 @@
       <LastGenOutput>ReadTextFile.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BowlingGame.Core\BowlingGame.Core.csproj">
+      <Project>{7e610a1b-547a-4991-b29e-c7feb7cd3481}</Project>
+      <Name>BowlingGame.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
